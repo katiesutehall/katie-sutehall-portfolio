@@ -1,0 +1,103 @@
+span {
+    font-weight: bold;
+}
+p, h1, ul, form, a, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#headshot {
+    border-radius: 6%;
+}
+
+h1 {
+    padding: 10px;
+    border-bottom: .5px solid darkgray;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 800px;
+    padding-bottom: 4rem;
+}
+
+footer {
+    background-color: lightcyan;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.navbar-custom {
+    background-color: lightcyan;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: lightcyan; 
+    margin: 5px;
+    
+}
+
+.button-wrapper {
+    display: flex; 
+    justify-content: center;
+  
+}
+
+h5 {
+    text-align: center;
+}
+
+.image {
+    width: 15rem;
+    height: 160px;
+    margin: 10px;
+    border: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 500px;
+    }
+    }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        margin: 20px;   
+    }
+    
+    }
+    #headshot, #column {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+    #portfolioColumn {
+        display: block; 
+    }
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: block;  
+    }
+
+    #headshot {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
